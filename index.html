@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="BIBIRE CLASSIC COUTURE — premium fabrics and expert tailoring for native and English wear." />
+  <title>BIBIRE CLASSIC COUTURE | Crafted Elegance</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <style>.quick-contact{display:flex;gap:9px;align-items:center;flex-wrap:wrap;margin-top:25px;color:#d8c7b2;font-size:11px}.quick-contact a,footer a{color:#e4b665;text-decoration:none}.quick-contact a:hover,footer a:hover{text-decoration:underline}</style>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Bibire Classic Couture home"><span>BC</span><strong>BIBIRE</strong><em>CLASSIC COUTURE</em></a>
+    <button class="menu-button" aria-label="Open menu" aria-expanded="false">☰</button>
+    <nav><a href="#collection">Collection</a><a href="#services">Services</a><a href="#order">Order</a></nav>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Crafted Elegance. Timeless You.</p>
+        <h1>Made for your <i>most beautiful</i> moments.</h1>
+        <p class="intro">Premium materials and expert tailoring for memorable native and English wear.</p>
+        <div class="hero-actions"><a class="button gold" href="#order">Place an order</a><a class="button ghost" href="https://wa.me/2347089275868" target="_blank" rel="noopener">WhatsApp us</a></div>
+        <div class="quick-contact"><a href="tel:08061982156">Call: 0806 198 2156</a><span>•</span><a href="https://wa.me/2347089275868" target="_blank" rel="noopener">WhatsApp: 0708 927 5868</a><span>•</span><span>Nigeria</span></div>
+      </div>
+      <div class="hero-image"><img src="brand-hero.jpeg" alt="Bibire Classic Couture collection and model wearing blue patterned fabric" /><div class="image-note">BIBIRE<br><span>CLASSIC COUTURE</span></div></div>
+    </section>
+
+    <section class="promise" id="services">
+      <p class="eyebrow">The Bibire standard</p>
+      <h2>Quality you can feel. Style that stays with you.</h2>
+      <div class="features">
+        <article><span>✦</span><h3>Premium materials</h3><p>Beautiful, carefully selected fabrics for every occasion.</p></article>
+        <article><span>◈</span><h3>Built to last</h3><p>Durable quality, finished with thoughtful attention to detail.</p></article>
+        <article><span>✂</span><h3>Expertly tailored</h3><p>Pieces shaped around your style, fit and vision.</p></article>
+        <article><span>♔</span><h3>For every wardrobe</h3><p>Elegant native and English wear for women and men.</p></article>
+      </div>
+    </section>
+
+    <section class="collection" id="collection">
+      <div><p class="eyebrow">Our collection</p><h2>Find the fabric that tells your story.</h2></div>
+      <p class="collection-copy">From classic solids to statement textiles, we help you choose a quality fabric and create an outfit you will love wearing.</p>
+    </section>
+
+    <section class="order" id="order">
+      <div class="order-copy"><p class="eyebrow">Start your order</p><h2>Your next signature look begins here.</h2><p>Tell us what you need. We will discuss fabric choices, measurements, price and delivery with you personally.</p><p class="small">For the fastest response, send your request directly on WhatsApp.</p></div>
+      <form id="order-form">
+        <label>Your name<input name="name" required placeholder="Full name" /></label>
+        <label>Phone number<input name="phone" required type="tel" placeholder="Your phone number" /></label>
+        <label>What would you like to order?<select name="item" required><option value="" selected disabled>Select an option</option><option>Fabric material</option><option>Native wear tailoring</option><option>English wear tailoring</option><option>Custom outfit consultation</option></select></label>
+        <label>Details<textarea name="details" rows="4" placeholder="Colours, occasion, preferred style or anything else"></textarea></label>
+        <button class="button gold" type="submit">Order on WhatsApp <span>↗</span></button>
+        <p class="form-note">Replace the WhatsApp number in <code>script.js</code> before publishing.</p>
+      </form>
+    </section>
+  </main>
+  <footer><div class="brand footer-brand"><span>BC</span><strong>BIBIRE</strong><em>CLASSIC COUTURE</em></div><p>Your Style, Our Passion.</p><p><a href="tel:08061982156">Tel: 0806 198 2156</a> &nbsp; | &nbsp; <a href="https://wa.me/2347089275868" target="_blank" rel="noopener">WhatsApp: 0708 927 5868</a></p><p>Nigeria</p><p>© <span id="year"></span> Bibire Classic Couture</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
